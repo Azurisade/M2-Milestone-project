@@ -1,4 +1,4 @@
-SOURCE etl.sql;
+SOURCE /home/cfrierson/etl.sql;
 
 USE POS;
 
