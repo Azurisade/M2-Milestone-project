@@ -109,7 +109,7 @@ LINES TERMINATED BY '\n';
 -- and each customer's order history for delivery planning
 -- ============================================
 SELECT JSON_OBJECT(
-    'zip', ci.zip,
+    'zip', LPAD(ci.zip, 5, '0'),
     'city', ci.city,
     'state', ci.state,
     'customers',
